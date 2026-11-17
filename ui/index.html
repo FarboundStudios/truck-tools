@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Truck Tools</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="vignette" aria-hidden="true"></div>
+<div class="spot" id="spot" aria-hidden="true"></div>
+
+<div id="boot" aria-hidden="true">
+  <svg viewBox="0 0 160 80" class="boot-logo">
+    <path pathLength="1" d="M8 58V18h58v40M66 58h6M66 28h26l16 18v12h-8M20 58h46"/>
+    <circle pathLength="1" cx="28" cy="60" r="8"/><circle pathLength="1" cx="52" cy="60" r="8"/><circle pathLength="1" cx="96" cy="60" r="8"/>
+  </svg>
+  <div class="boot-name">TRUCK&nbsp;TOOLS</div>
+  <div class="boot-bar"><i></i></div>
+  <img class="boot-by" src="assets/farbound-lockup.png" alt="Farbound Studios">
+</div>
+
+<div class="app">
+  <nav class="rail" id="rail" aria-label="Navigation"></nav>
+  <div class="stage">
+    <header class="top">
+      <div class="ctx" id="ctx"></div>
+      <div class="grow"></div>
+      <button id="upd" class="updchip" hidden></button>
+      <select id="lang" aria-label="Language"></select>
+    </header>
+    <main id="view"></main>
+  </div>
+</div>
+<div id="toast" role="status"></div>
+<script src="i18n.js"></script>
+<script src="fx.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

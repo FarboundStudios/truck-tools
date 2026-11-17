@@ -1,0 +1,51 @@
+{
+  "name": "truck-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Truck Tools: editeur de profils et de sauvegardes pour Euro Truck Simulator 2 et American Truck Simulator.",
+  "author": "Farbound Studios",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/core.test.js test/updater.test.js",
+    "icon": "electron build/make-icon.cjs",
+    "dist": "electron-builder --win portable --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "com.heavymp.trucktools",
+    "productName": "Truck Tools",
+    "copyright": "Farbound Studios",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "electron/**",
+      "src/**",
+      "ui/**",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.png",
+      "artifactName": "TruckTools-${version}-portable.exe"
+    }
+  },
+  "homepage": "https://farboundstudios.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FarboundStudios/truck-tools.git"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

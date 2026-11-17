@@ -1,0 +1,61 @@
+Truck Tools Open License (MIT with Attribution)
+
+Copyright (c) 2026 Farbound Studios (https://farboundstudios.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. LICENSE NOTICE. The above copyright notice and this permission notice shall
+   be included in all copies or substantial portions of the Software.
+
+2. ATTRIBUTION ("Built with Truck Tools"). Any software, application, service,
+   website or other product that contains, is derived from, or is built with the
+   Software or a substantial part of it (a "Derived Work") must clearly state,
+   for as long as it is distributed or made available to others:
+
+       Built with Truck Tools by Farbound Studios - https://farboundstudios.com
+
+   (the sentence may be translated; the names "Truck Tools" and "Farbound
+   Studios" and the address must stay), in each of the following places that
+   exist for the Derived Work:
+
+   a. its README, documentation, or project / download page;
+   b. a place its users see in normal use, such as the "About" or credits
+      screen of an application;
+   c. the announcement of each public release.
+
+   The statement must be easy to read: not hidden, and not smaller than the
+   text around it. An attribution that already appears in the Software must not
+   be removed or weakened. A Derived Work used only privately, and never
+   distributed or made available to anyone outside the person or organization
+   that made it, does not need the statement.
+
+3. NO FALSE CLAIM. A Derived Work must not present itself as the official
+   Truck Tools or as endorsed by Farbound Studios or its authors. The names
+   "Truck Tools" and "Farbound Studios" and their logos (including the files
+   in docs/brand and ui/assets) are not licensed by this document, except for
+   the statement required by section 2 and plain factual references (for
+   example "compatible with Truck Tools"). If you fork the project, give it
+   your own name and logo.
+
+4. COMPLIANCE. If you do not comply with these conditions, your rights under
+   this license end automatically. They are reinstated if you correct the
+   failure within 30 days after you become aware of it.
+
+5. THIRD-PARTY COMPONENTS. Components that come from others (for example
+   Electron and electron-builder) remain under their own licenses and are not
+   covered by this document. Euro Truck Simulator 2, American Truck Simulator
+   and their names are trademarks of SCS Software; this project is not
+   affiliated with or endorsed by SCS Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
